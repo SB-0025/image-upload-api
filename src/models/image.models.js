@@ -9,11 +9,9 @@ const imgSchema = new mongoose.Schema({
         type: String,
         required: true
      },
-     path: {
-        type: String,
-     },
-     size: {
-        type: Number
+     publicId: {
+      type: String,
+      required: true
      }
 }, {timestamps: true})
 
